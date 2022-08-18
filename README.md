@@ -1,11 +1,8 @@
 # Project REST-Rant
------------------
+
 TBD - Summary
 
-
-
 ## Routes
------------------
 
 | Method | Path | Purpose |
 |--------|------|---------|
@@ -22,7 +19,7 @@ TBD - Summary
 | GET    | *   |404 page (matches any route not defined above)|
 
 ## Database
--------------------
+
 #### places
 
 | field | Type |
