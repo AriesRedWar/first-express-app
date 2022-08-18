@@ -1,22 +1,18 @@
-// Require needed modules.
+require('dotenv').config()
 const express = require('express')
-
-// Initialize the app object.
 const app = express()
 
-// Create a homepage route.
-app.get('/', function (req, res) {
-    // This gets sent to the client 
-    // (your web browser most likely!)
-    res.send('Hello world')
+app.set('view engine', 'jsx')
+app.engine('jsx', require('express-react-views').createEngine())
+
+// app.use('/places', require('./controllers/places'))
+
+app.get('/', (req, res) => {
+  res.render('home')
 })
 
-// Create a second route.
-app.get('/second', function (req, res) {
-    res.send('My Second Page!')
+app.get('*', (req, res) => {
+  res.send('404 page')
 })
 
-// Listen for connections.
-app.listen(3000, function () {
-    console.log('I am awake!')
-})
+app.listen(process.env.PORT)

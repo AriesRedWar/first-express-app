@@ -22,7 +22,7 @@ TBD - Summary
 
 #### places
 
-| field | Type |
+| Field | Type |
 |-------|------|
 | Name  | (string) |
 | City  | (string) |
