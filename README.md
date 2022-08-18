@@ -11,3 +11,8 @@
 | GET    | /places/:id/rant  |Create a rant (comment) about a particular place|
 | GET    | /places/:id/rant/:rantId  |Delete a rant (comment) about a particular place|
 | GET    | *   |404 page (matches any route not defined above)|
+
+
+| Name(string) | City (string) | Cuisines (string) | Pic (string) |
+|--------------|---------------|-------------------|--------------|
+| Name | City  | Cuisines | Pic|
