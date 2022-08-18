@@ -1,10 +1,10 @@
-#Project REST-Rant
+# Project REST-Rant
 -----------------
 TBD - Summary
 
 
 
-##Routes
+## Routes
 -----------------
 
 | Method | Path | Purpose |
@@ -21,9 +21,9 @@ TBD - Summary
 | GET    | /places/:id/rant/:rantId  |Delete a rant (comment) about a particular place|
 | GET    | *   |404 page (matches any route not defined above)|
 
-##Database
+## Database
 -------------------
-####places
+#### places
 
 | field | Type |
 |-------|------|
