@@ -1,3 +1,12 @@
+#Project REST-Rant
+-----------------
+TBD - Summary
+
+
+
+##Routes
+-----------------
+
 | Method | Path | Purpose |
 |--------|------|---------|
 | GET    | /    |Home page|
@@ -12,7 +21,13 @@
 | GET    | /places/:id/rant/:rantId  |Delete a rant (comment) about a particular place|
 | GET    | *   |404 page (matches any route not defined above)|
 
+##Database
+-------------------
+####places
 
-| Name(string) | City (string) | Cuisines (string) | Pic (string) |
-|--------------|---------------|-------------------|--------------|
-| Name | City  | Cuisines | Pic|
+| field | Type |
+|-------|------|
+| Name  | (string) |
+| City  | (string) |
+| Cuisines | (string) |
+| Pic | (string) |
